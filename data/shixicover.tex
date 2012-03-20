@@ -1,0 +1,31 @@
+%%============================================================
+%% 中文封面
+\newpage
+\thispagestyle{empty}
+
+\vspace{4cm}
+
+\centerline{\heiti\erhao\textbf{浙江大学毕业设计}}
+\centerline{\heiti\yihao\textbf{本科学生中期报告}}
+
+\vspace{4cm}
+
+\begin{tabbing}
+    \= \songti\sanhao \textbf{学生姓名：}\quad \quad \quad \quad \=      \underline{\makebox[8cm]{\sanhao\textbf{\zjuauthornamec}}} \\[2mm]
+    \> \songti\sanhao \textbf{实习单位\textbackslash 实验室：}\> \underline{\makebox[8cm]{\sanhao\textbf{\zjuworkplacec}}} \\[2mm]
+    \> \songti\sanhao \textbf{项目名称：}\>      \underline{\makebox[8cm]{\sanhao\textbf{\zjutitlec}}} \\[2mm]
+    \> \songti\sanhao \textbf{导师姓名：}\>      \underline{\makebox[8cm]{\sanhao\textbf{\zjumentorc}}} \\[2mm]
+    \> \songti\sanhao \textbf{合作导师姓名：}\>  \underline{\makebox[8cm]{\sanhao\textbf{\zjuworkmentorc}}} \\[2mm]
+    \> \songti\sanhao \textbf{项目开始日期：}\>  \underline{\makebox[8cm]{\sanhao\textbf{\zjuworkbegintime}}} \\[2mm]
+    \> \songti\sanhao \textbf{项目结束日期：}\>  \underline{\makebox[8cm]{\sanhao\textbf{\zjuworkendtime}}}
+\end{tabbing}
+
+\vspace{6cm}
+\begin{center}
+\songti\xiaosan 填表日期：\quad 年 \quad 月 \quad 日
+\end{center}
+
+% empty page for two-page print
+\ifthenelse{\equal{\zjuside}{T}}{%
+  \newpage\mbox{}%
+  \thispagestyle{empty}}{}
