@@ -1,3 +1,5 @@
+这是浙江大学计算机本科毕业设计开题报告模版
+
 首先是安装好所需的xaletex和相关字体(字体的名称可以从csbachelor.cls中找)
 
 然后就是编辑Variabls.ini,里面是我自己的配置(make help可以察看帮助)
